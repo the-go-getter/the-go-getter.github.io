@@ -195,7 +195,7 @@
 
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
-      width: 85%;
+      width: auto;
    }
    header .banner-text hr {
       width: 80%;
