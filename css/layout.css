@@ -253,6 +253,7 @@ ul#nav li.current a {
     padding-top: 15%;
     padding-bottom: 15%;
     overflow: hidden;
+    opacity: 1;
 }
 
 #about a, #about a:visited {
@@ -325,6 +326,7 @@ ul#nav li.current a {
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
+    opacity: 0.8;
 }
 
 #resume a, #resume a:visited {
