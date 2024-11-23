@@ -421,6 +421,11 @@ ul#nav li.current a {
     text-align: left;
     position: relative;
 }
+/* Hover effect for the entire card */
+.entry:hover .role {
+    color: #0ef8ff; 
+    transition: color 0.3s ease-in-out; 
+}
 .entry .title {
     margin-bottom: 0.5em;
     float: left;
@@ -449,8 +454,12 @@ ul#nav li.current a {
     margin: 0;
     font-size: 100%;
 }
-.entry .role{
+/* Hover effect for role class */
+.entry .role {
+    text-decoration: none;
     font-size: 1.2em;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 .entry .body {
     margin: 0 0 1em;
@@ -474,6 +483,25 @@ ul#nav li.current a {
     content: "–";
     margin-right: 0.5em;
 }
+
+/*Work description*/
+.description-container {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.description-container ul {
+    padding-left: 1.5em;
+    list-style-type: disc;
+}
+
+.description-container ul li {
+    margin-bottom: 0.5em;
+    color: #010101;
+}
+
 
 /*.item {
     display: flex;
